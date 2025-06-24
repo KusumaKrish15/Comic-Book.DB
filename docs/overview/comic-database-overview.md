@@ -49,4 +49,4 @@ These API resources and endpoints are available:
 <br>
 <br>
 
-> **Next**⏭️ [Set up your development system](docs/tutorials/dev-env.md)
+> **Next**⏭️ [Set up your development system](../tutorials/dev-env.md)
