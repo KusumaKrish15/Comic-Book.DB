@@ -1,5 +1,6 @@
 title: Comic Book Database API
 description: A platform to search and retrieve your favorite comic book information.
+baseurl: "/Comic-Book.DB"
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-merlot
