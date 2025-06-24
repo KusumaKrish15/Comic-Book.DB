@@ -1,46 +1,24 @@
-# Add a new comic
-Creates a new comic book entry in the collection.
+---
+layout: page
+---
 
-## Method: 
-`POST`
+# `comicBook` resource
 
-## URL
-`{base_url}/comicBooks`
+**Base endpoint**:
 
-## Base URL parameters
-**Optional**: You should include all properties: title, issueNumber, publisher, date, conditionGrade, status, upcCode, tradePrice, and currency.
-The service automatically assigns the new comic book a unique ID.
+```shell
 
-## Headers
-`Content-Type: application/json`
-
-## Request body
-A JSON object containing the properties of the comic book to be added.
-
-### cURL example
-Shows creating a new comic book titled "Batman".
-
-```
-curl -X POST \
--H "Content-Type: application/json" \
--d '{ 
-  "title": "batman",
-  "issueNumber": 1,
-  "publisher": "DC_Comics",
-  "date": "Spring_1940",
-  "conditionGrade": "7.5",
-  "status": "Restored",
-  "upcCode": "0087021001",
-  "tradePrice": 198000.00,
-  "currency": "USD"
-}' \
-http://localhost:3000/comicBooks
+{server_url}/comicBooks
 ```
 
-## Response
-Returns the information from the request body plus a unique ID for the comic book.
+Contains information about the comic books in the collection. A comicBook resource describes the details of individual comic books including the issue number, publisher, and other relevant details.
 
-```
+## Resource properties
+
+Sample `comicBook` resource
+
+```js
+
 {
   "title": "batman",
   "issueNumber": 1,
@@ -50,13 +28,20 @@ Returns the information from the request body plus a unique ID for the comic boo
   "status": "Restored",
   "upcCode": "0087021001",
   "tradePrice": 198000.00,
-  "currency": "USD",
-  "id": 5
+  "currency": "USD"
 }
 ```
 
-## Return status
+| Property name | Type | Description |
+| ------------- | ----------- | ----------- |
+| `title` | string | The title of the comic book (e.g., "batman") |
+| `issueNumber` | number | The issue number of the comic book |
+| `publisher` | string | The publisher of the comic book |
+| `date` | string | The publication date of the comic book |
+| `conditionGrade` | string | The condition grade of the comic book |
+| `status` | string | The restoration status of the comic book |
+| `upcCode` | string | The UPC code of the comic book |
+| `tradePrice` | number | The trade price of the comic book |
+| `currency` | string | The currency used for the trade price |
 
-| Status value | Return status | Description |
-| --- | --- | --- |
-| 201 | Created | A new resource was created successfully |
+This resource can be used to manage the collection of comic books, including adding, updating, and retrieving detailed information about each comic book in the collection.
