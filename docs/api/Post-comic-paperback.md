@@ -60,3 +60,9 @@ Returns the information from the request body plus a unique ID for the comic tra
 | Status value | Return status | Description |
 | --- | --- | --- |
 | 201 | Created | A new resource was created successfully |
+
+
+<br>
+<br>
+
+<mark>**Next** ⏭️ [Comic Book Database API overview](../overview/comic-database-overview.md)</mark>
