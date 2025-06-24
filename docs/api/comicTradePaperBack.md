@@ -48,4 +48,4 @@ This resource can be used to manage the collection of comic trade paperbacks, in
 <br>
 <br>
 
-<mark>**Next** ⏭️ [Get a list of comics](../api/Get-comics.md)</mark>
+> <mark>**Next** ⏭️ [Get a list of comics](../api/Get-comics.md)</mark>
