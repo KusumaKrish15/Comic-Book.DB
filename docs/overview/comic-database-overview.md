@@ -48,3 +48,5 @@ generally `http://localhost:3000`.
 These API resources and endpoints are available:
 - [comicBook](https://github.com/KusumaKrish15/Comic-Database-Service/blob/main/docs/api/comicBook.md)
 - [comicTradePaperBack](https://github.com/KusumaKrish15/Comic-Database-Service/blob/main/docs/api/comicTradePaperBack.md)
+
+> **Next**⏭️ [Set up your development system](docs/tutorials/comic-database-overview.md)
