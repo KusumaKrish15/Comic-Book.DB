@@ -3,7 +3,7 @@ The Comic Database Service provides a cloud-hosted database through which you ca
 
 For the REST API docs, see [The Comic-Database-Service docs](./docs) folder.
 
-Start with the [Overview](overview/comic-database-overview.md) topic and browse through the available tutorials, references, and resources.
+Start with the [Overview](docs/overview/comic-database-overview.md) topic and browse through the available tutorials, references, and resources.
 
 **NOTE**:
 
@@ -29,3 +29,5 @@ If you'd like to contribute:
     * Must have no lint or Vale errors.
     * Must have no errors in any code examples.
 5. Test your changes locally from your feature branch before you submit a pull request.
+
+**Next**⏭️ [Comic Database Service overview](docs/overview/comic-database-overview.md)
