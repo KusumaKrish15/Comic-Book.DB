@@ -95,4 +95,4 @@ You have successfully added a new comic book to your collection using cURL.
 
 <br>
 <br>
-> <mark>**Next** ⏭️[Update an existing comic in the database](../tutorials/Update_a_comic.md)</mark>
+<mark>**Next** ⏭️[Update an existing comic in the database](../tutorials/Update_a_comic.md)</mark>
