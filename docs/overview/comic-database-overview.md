@@ -49,4 +49,4 @@ These API resources and endpoints are available:
 <br>
 <br>
 
-> **Next**⏭️ [Set up your development system](docs/tutorials/comic-database-overview.md)
+> **Next**⏭️ [Set up your development system](docs/tutorials/dev-env.md)
