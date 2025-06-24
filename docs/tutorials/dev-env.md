@@ -91,4 +91,4 @@ If you see the list of comic books from the service, you're ready to do the tuto
 
 <br>
 
-> <mark>**Next** ⏭️ [Getting started with the Comic Database Service API](/Getting_started.md)</mark>
+> <mark>**Next** ⏭️ [Getting started with the Comic Database Service API](docs/tutorials/Getting_started.md)</mark>
