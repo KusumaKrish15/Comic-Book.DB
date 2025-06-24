@@ -1,5 +1,5 @@
 # Setting up your development environment tutorial
-<mark>Adapted from To-do service API: Before you start a tutorial. </mark>
+<mark>Adapted from the _To-do service API: Before you start a tutorial_ article. </mark>
 
 These are the steps you must do before you can run
 the tutorials for the **Comic Database service**.
