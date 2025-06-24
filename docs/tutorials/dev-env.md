@@ -91,4 +91,4 @@ If you see the list of comic books from the service, you're ready to do the tuto
 
 <br>
 
-> <mark>**Next** ⏭️ [Getting Started with the Comic Book Database service]({{ site.baseurl }}/docs/tutorials/Getting_started.md)</mark>
+> <mark>**Next** ⏭️ [Getting Started with the Comic Book Database service]({{ "/docs/tutorials/Getting_started.md" | relative_url }})</mark>
