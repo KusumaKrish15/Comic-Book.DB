@@ -1,4 +1,4 @@
-## Add a new comic trade paperback book
+# Add a new comic trade paperback book
 Creates a new comic trade paperback book entry in the collection.
 
 ## Method: 
