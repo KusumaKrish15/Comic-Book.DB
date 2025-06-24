@@ -95,4 +95,4 @@ You have successfully updated an existing comic book using cURL.
 <br>
 <br>
 
-<mark>**Next** ⏭️ [comicBook resource](../api/comicBook.md)</mark>
+> <mark>**Next** ⏭️ [comicBook resource](../api/comicBook.md)</mark>
