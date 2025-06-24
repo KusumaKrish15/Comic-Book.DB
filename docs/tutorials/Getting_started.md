@@ -1,5 +1,6 @@
 # Getting started: a tutorial
-<mark>Adapted from To-do service API overiew. </mark>
+<mark>Adapted from To-do service API overview. </mark>
+
 <br>This tutorial shows you how to download the API files and try one of the available services. If you already [set up your development environment](/docs/tutorials/dev-env.md), the process should take about 15 minutes.
 
 ## Step 1: Confirm if you have the API files
@@ -42,12 +43,14 @@ You can use cURL or Postman to list all the comic books.
 ```
 curl http://localhost:3000/comicBooks
 ```
+
 ### If you’re using Postman
-1 In Postman’s main panel select GET and add the following content to the URL text box: http://localhost:3000/comicBooks/.
+1. In Postman’s main panel select GET and add the following content to the URL text box: http://localhost:3000/comicBooks/.
 
 ## Step 4: Check the response
 The response pane should show all the comic books. An example below. 
- ```
+
+```
    {
      "batman": [
     {
@@ -60,4 +63,9 @@ The response pane should show all the comic books. An example below.
       "tradePrice": 198000,
       "currency": "USD"
     }
+```
+<br>
+<br>
+
+<mark>**Next** ⏭️ [Add a new comic to the database](/tutorials/Add_a_new_comic.md)</mark>
 
