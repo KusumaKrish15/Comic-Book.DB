@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# `comicTradePaperBack` resource
+# comicTradePaperBack resource
 
 **Base endpoint**:
 
