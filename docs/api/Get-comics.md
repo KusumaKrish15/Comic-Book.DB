@@ -22,7 +22,7 @@ Use the endpoints below to list all comic books in the collection or a specific 
 None required
 
 ### cURL example
-Returns the comic book with the title "batman".
+Returns the comic book with the title "batman."
 
 ```
 curl -X GET http://localhost:3000/comicBooks/batman
@@ -51,7 +51,7 @@ Returns all comic books or the specific comic book requested. The following exam
 | ------------ | ------------- | ------------------------------------------------------------ |
 | 200          | OK       | Request successful. The server has responded as required |
 | 400          | Bad Request   | The server couldn't understand the request |
-| 404 | Not Found | Requested resource could not be found |
+| 404 | Not Found | Requested resource couldn't be found |
 
 <br>
 <br>

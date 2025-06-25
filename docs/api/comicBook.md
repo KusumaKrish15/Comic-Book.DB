@@ -34,13 +34,13 @@ Sample `comicBook` resource
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `title` | string | The title of the comic book (e.g., "batman") |
+| `title` | string | The title of the comic book. For example, "batman" |
 | `issueNumber` | number | The issue number of the comic book |
 | `publisher` | string | The publisher of the comic book |
 | `date` | string | The publication date of the comic book |
 | `conditionGrade` | string | The condition grade of the comic book |
 | `status` | string | The restoration status of the comic book |
-| `upcCode` | string | The UPC code of the comic book |
+| `upcCode` | string | The Universal Product Code of the comic book |
 | `tradePrice` | number | The trade price of the comic book |
 | `currency` | string | The currency used for the trade price |
 

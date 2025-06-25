@@ -18,7 +18,7 @@ The service automatically assigns new comic trade paperback book a unique ID.
 A JSON object containing the properties of the comic trade paperback book to be added.
 
 ### cURL example
-Shows creating a new comic trade paperback book titled "Conan The Barbarian".
+Shows creating a new comic trade paperback book titled "Conan The Barbarian."
 
 ```
 curl -X POST \
@@ -59,7 +59,7 @@ Returns the information from the request body plus a unique ID for the comic tra
 
 | Status value | Return status | Description |
 | --- | --- | --- |
-| 201 | Created | A new resource was created successfully |
+| 201 | Created | A new resource is created successfully |
 
 
 <br>

@@ -18,7 +18,7 @@ The service automatically assigns the new comic book a unique ID.
 A JSON object containing the properties of the comic book to be added.
 
 ### cURL example
-Shows creating a new comic book titled "Batman".
+Shows creating a new comic book titled "Batman."
 
 ```
 curl -X POST \
@@ -59,7 +59,7 @@ Returns the information from the request body plus a unique ID for the comic boo
 
 | Status value | Return status | Description |
 | --- | --- | --- |
-| 201 | Created | A new resource was created successfully |
+| 201 | Created | A new resource is created successfully |
 
 
 <br>

@@ -1,5 +1,5 @@
 # Setting up your development environment tutorial
-<mark>Adapted from the _To-do service API: Before you start a tutorial_ article. </mark>
+<mark>Adapted from the _To-Do Service API: before you start a tutorial_ article. </mark>
 
 These are the steps you must do before you can run
 the tutorials for the **Comic Database service**.
@@ -15,8 +15,8 @@ For information about how to prepare MacOS for the tutorials, visit the [MacOS i
 
 * A [GitHub account](https://github.com)
 * The following software on your development system:
-    * [Git](https://docs.github.com/en/get-started/quickstart/set-up-git) (for the command line)
-    * [GitHub Desktop](https://desktop.github.com) (optional)
+    * [Git](https://docs.github.com/en/get-started/quickstart/set-up-git): for the command line
+    * [GitHub Desktop](https://desktop.github.com): optional
     * A fork of the [Comic-Database-Service repo](https://github.com/KusumaKrish15/Comic-Database-Service)
     * A current/LTS version of [node.js](https://nodejs.org/en/)
     * A current version of [json-server](https://www.npmjs.com/package/json-server)

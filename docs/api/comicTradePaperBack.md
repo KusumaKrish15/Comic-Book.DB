@@ -34,7 +34,7 @@ Sample `comicTradePaperBack` resource
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `title` | string | The title of the comic trade paperback (e.g., "conanTheBarbarian") |
+| `title` | string | The title of the comic trade paperback. For example, "conanTheBarbarian" |
 | `issueNumber` | number | The issue number of the comic trade paperback |
 | `publisher` | string | The publisher of the comic trade paperback |
 | `date` | string | The publication date of the comic trade paperback |

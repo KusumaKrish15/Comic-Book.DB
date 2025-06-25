@@ -3,11 +3,11 @@ This tutorial covers updating an existing comic book. You'll learn how to update
 
 ## Prerequisites
 - You have a REST API endpoint that allows you to add new comic books.
-- The endpoint URL is `PUT http://localhost:3000/comicBooks/{category}/{id}`, where `{category}` is the specific comic book category (e.g., batman) and `{id}` is the unique identifier of the comic book.
+- The endpoint URL is `PUT http://localhost:3000/comicBooks/{category}/{id}`, where `{category}` is the specific comic book category. For example, batman and `{id}` is the unique identifier of the comic book.
 - The JSON server or API server is running and accessible.
 
 ## Step 1. Prepare the JSON data for update
-1. Create a JSON object representing the updated data for the comic book. For example, let's update the Batman comic book's condition and trade price:
+1. Create a JSON object representing the updated data for the comic book. For example, update the Batman comic book's condition and trade price:
 
 ```
 {
@@ -83,7 +83,7 @@ curl -X PUT "http://localhost:3000/comicBooks/batman/1" \
 ```
 
 ## Step 4: Verifying the update
-1. To verify that the comic book has been added, you can use a GET request:
+1. To verify that the comic book has is added, you can use a GET request:
 
 ```
 curl -X GET "http://localhost:3000/comicBooks/batman/1" -H "accept: application/json"

@@ -8,7 +8,7 @@ This tutorial covers adding a new comic book to the database. You'll learn how t
 - The JSON server or API server is running and accessible.
 
 ## Step 1. Prepare the JSON data
-1. Create a JSON object representing the new comic book you want to add. For example, let's add a new "Green Lantern" comic book:
+1. Create a JSON object representing the new comic book you want to add. For example, add a new "Green Lantern" comic book:
 
 ```
 {
@@ -83,7 +83,7 @@ curl -X POST "http://localhost:3000/comicBooks/greenLantern" \
 ```
 
 ## Step 4: Verifying the addition
-1. To verify that the comic book has been added, you can use a GET request:
+1. To verify that the comic book is added, you can use a GET request:
 
 ```
 curl -X GET "http://localhost:3000/comicBooks/greenLantern" -H "accept: application/json"

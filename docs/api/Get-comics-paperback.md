@@ -22,7 +22,7 @@ Use the endpoints below to list all comic trade paperback books in the collectio
 None required
 
 ### cURL example
-Returns the comic trade paperback book with the title "conanTheBarbarian".
+Returns the comic trade paperback book with the title "conanTheBarbarian."
 
 ```
 curl -X GET http://localhost:3000/comicTradePaperBacks/conanTheBarbarian
@@ -51,7 +51,7 @@ Returns all comic trade paperback books or the specific comic trade paperback bo
 | ------------ | ------------- | ------------------------------------------------------------ |
 | 200          | OK       | Request successful. The server has responded as required |
 | 400          | Bad Request   | The server couldn't understand the request |
-| 404 | Not Found | Requested resource could not be found |
+| 404 | Not Found | Requested resource couldn't be found |
 
 This documentation provides details on how to fetch all comic trade paperback books or a specific comic trade paperback book by its title, using a cURL example.
 
