@@ -1,4 +1,4 @@
-# `comicTradePaperBack` resource
+# Resource 2: `comicTradePaperBack`
 
 **Base endpoint**:
 
