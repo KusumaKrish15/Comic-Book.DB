@@ -1,8 +1,4 @@
----
-layout: page
----
-
-# comicBook resource
+# `comicBook` resource
 
 **Base endpoint**:
 

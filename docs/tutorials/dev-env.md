@@ -2,14 +2,13 @@
 <mark>Adapted from the _To-Do Service API: before you start a tutorial_ article. </mark>
 
 These are the steps you must do before you can run
-the tutorials for the **Comic Database service**.
+the tutorials for the **Comic database service**.
 
 Expect this preparation to take about 20 minutes to complete.
 
 ## Step 1: Preparing for the tutorials
 
-The following instructions describe how to prepare for running the tutorials on Windows.
-For information about how to prepare MacOS for the tutorials, visit the [MacOS installation guide](macos-installation).
+The following instructions describe how to prepare for running the tutorials on Windows and MacOS.
 
 ### To complete the tutorials in this section, you need the following:
 
@@ -17,7 +16,7 @@ For information about how to prepare MacOS for the tutorials, visit the [MacOS i
 * The following software on your development system:
     * [Git](https://docs.github.com/en/get-started/quickstart/set-up-git): for the command line
     * [GitHub Desktop](https://desktop.github.com): optional
-    * A fork of the [Comic-Database-Service repo](https://github.com/KusumaKrish15/Comic-Database-Service)
+    * A fork of the [Comic-database-service GitHub repository](https://github.com/KusumaKrish15/Comic-Book.DB)
     * A current/LTS version of [node.js](https://nodejs.org/en/)
     * A current version of [json-server](https://www.npmjs.com/package/json-server)
     * A current copy of the database file. You can get this by syncing your fork.
@@ -25,7 +24,7 @@ For information about how to prepare MacOS for the tutorials, visit the [MacOS i
 
 ## Step 2: Test your development system
 
-Create and checkout a test branch of your fork of the comic-database-service repo. You can download these from the [Comic Database service repository on GitHub](https://github.com/KusumaKrish15/Comic-Database-Service/tree/main/api).
+Create and checkout a test branch of your fork of the comic-database-service repo. You can download these from the [Comic-database-service repository on GitHub](https://github.com/KusumaKrish15/Comic-Book.DB/tree/main/API).
 
 To download each file:
 1. Move your cursor over the filename and select the link that appears.
@@ -79,6 +78,8 @@ To download each file:
       "tradePrice": 198000,
       "currency": "USD"
     }
+   }
+   ```
 
 4. If you don't see the list of users, or receive an error in any step of the procedure, investigate and correct the error before continuing. Some common situations that cause errors include:
 
@@ -91,4 +92,4 @@ If you see the list of comic books from the service, you're ready to do the tuto
 
 <br>
 
-> **Next** ⏭️ [Getting Started with the Comic Book Database service](../tutorials/Getting_started.md)
+> **Next** ⏭️ [Getting Started with the Comic book database service](../tutorials/Getting_started.md)
