@@ -1,4 +1,4 @@
-# `comicBook` resource
+# Resource 1: `comicBook`
 
 **Base endpoint**:
 
