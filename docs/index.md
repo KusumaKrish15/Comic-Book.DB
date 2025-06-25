@@ -31,4 +31,4 @@ If you'd like to contribute:
 5. Test your changes locally from your feature branch before you submit a pull request.
 <br>
 
-> <mark>**Next** ⏭️ [Comic Database Service overview](overview/comic-database-overview.md)</mark>
+> **Next** ⏭️ [Comic Database Service overview](../docs/overview/comic-database-overview.md)
